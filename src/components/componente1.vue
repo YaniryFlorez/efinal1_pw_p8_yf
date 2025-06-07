@@ -14,14 +14,12 @@
     
     </div>
     <div class="butones">
-      <button @click="buscarCandidato()">Buscar</button>
-      <button @click="agregarCandidato()">Agregar</button>
+   
     </div>
   </div>
 </template>
 
 <script>
-import { consumirAPIFachada } from "@/cliente/candidatoCliente.js";
 export default {
   data() {
     return {
@@ -31,17 +29,8 @@ export default {
       nombre: "",
     };
   },
-  methods: {
-    async buscarPokemon() {
-      const data = await consumirAPIFachada();
-      const pokemons = data.results[0];
+ 
 
-      this.imgpokemon = 
-      this.nombre = candidatosApi.name.first;
-     
-    },
-
-    },
   };
 
 </script>

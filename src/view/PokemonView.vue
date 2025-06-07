@@ -12,20 +12,6 @@ export default {
         ImagenPokemon,
         MensajePokemon,
     },
-    data() {
-        return {
-        pokemon: {
-            nombre: 'Pikachu',
-            imagen: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
-            mensaje: '¡Pikachu te saluda!'
-        }
-        }
-    },
-    methods: {
-        obtenerImagen() {
-        return this.pokemon.imagen;
-        }
-    }
 
 }
 </script>
